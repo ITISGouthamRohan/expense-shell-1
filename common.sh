@@ -21,7 +21,8 @@
  }
 
 
- check root(){
+ check_root(){
+
     if [ $USERID -ne 0 ]
     then
     echo "please run thi script with root access"
